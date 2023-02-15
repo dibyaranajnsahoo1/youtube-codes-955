@@ -1,0 +1,46 @@
+body{
+    background-color:#01bdd5;
+}
+#key{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(5,50px);
+    gap: 20px;
+    padding: 40px;
+    margin: auto;
+    width: 80%;
+    margin-top: 160px;
+    background-color: #262c2c;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 15px;
+}
+#key>div{
+    background-color: #2e3639;
+    color: #01bdd5;
+    text-align: center;
+    /* text-transform: uppercase; */
+    display: flex;
+    justify-content:center;
+    border-radius: 5px;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.607) 0px 5px 15px;
+    font-size: 15px;
+    
+}
+#key>div:hover{
+    background-color: #01bdd5;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+    
+}
+#enter{
+    grid-area: 3/11/4/13;
+}
+#Shift{
+    grid-area: 4/11/5/13;
+}
+#space{
+    grid-area: 5/5/6/9;
+}
